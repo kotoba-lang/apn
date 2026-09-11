@@ -175,5 +175,5 @@ LLM-drafted-proposal ⊣ governor actuation gate and an audit ledger.
 ## Test
 
 ```sh
-clojure -M:test
+kbb -M:test
 ```
