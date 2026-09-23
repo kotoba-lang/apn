@@ -1,5 +1,5 @@
 (ns apn.validate-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [apn.model :as m]
             [apn.validate :as v]
             [apn.fixture :as fx]))

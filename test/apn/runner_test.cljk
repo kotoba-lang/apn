@@ -1,5 +1,5 @@
 (ns apn.runner-test
-  (:require [clojure.test :refer [deftest is]]
+  (:require [kotoba.test :refer [deftest is]]
             [apn.model :as m]
             [apn.runner :as runner]
             [apn.fixture :as fx]))
