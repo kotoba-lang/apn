@@ -5,7 +5,7 @@
   (the wavelength-continuity constraint: apn.model represents a lightpath
   with exactly one wavelength for its whole path, so there is no per-hop
   conversion to reason about). Pure functions, no I/O — portable .cljc."
-  (:require [clojure.set :as set]
+  (:require [kotoba.lang.coll :as set]
             [apn.model :as m]))
 
 (defn- link-weight
