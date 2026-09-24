@@ -177,3 +177,12 @@ LLM-drafted-proposal ⊣ governor actuation gate and an audit ledger.
 ```sh
 kbb -M:test
 ```
+
+The portable suite (no JVM) and a self-checking walkthrough:
+
+```sh
+kbb --backend sci --classpath src:test test/run_portable.cljk
+kbb --backend sci --classpath src docs/quickstart.cljk
+```
+
+See [`docs/operator-quickstart.md`](docs/operator-quickstart.md).
